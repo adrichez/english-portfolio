@@ -22,7 +22,7 @@
     <a href="## 📂 Structure">Structure</a> • 
     <a href="## 🌐 Exploration">Exploration</a> • 
     <a href="## 🚀 Technologies">Technologies</a> • 
-    <a href="## 📬 Contact">Contact</a> • 
+    <a href="## 📬 Contact">Contact</a>
   </p>
 </div>
 
