@@ -3,8 +3,7 @@
 </p>
 
 <div align="center">
-  <h1><span style="color: #46b698;">Personal Portfolio</span></h1>
-  <h2><span style="color: #7cceb8;">Personal website to showcase my experience, projects, and skills</span></h2>
+  <h1><span style="color: #46b698;">Personal website to showcase my experience, projects, and skills</span></h1>
 
   <hr style="border:none; height:0.3px; background-color:#777; width:65%; margin:30px auto 35px auto;">
 
