@@ -37,7 +37,7 @@
 
 ---
 
-## 📄 Descripción
+## 📄 Description
 
 <p align="center">
   <img src="resources/2-images/preview_portfolio.png" alt="Show my portfolio" width="85%">
