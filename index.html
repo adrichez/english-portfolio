@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrián Sánchez's portfolio</title>
+    <link rel="stylesheet" href="resources/1-scripts/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg" href="resources/2-images/logo.svg">
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+    <!-- HEADER MENU -->
+    <div class="contenedor-header">
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">
+                    <img src="resources/2-images/logo.svg" alt="Icon" class="logo-icon">
+                    <span>A</span><span>d</span><span>r</span><span>i</span><span>á</span><span>n</span> 
+                    <span>S</span><span>á</span><span>n</span><span>c</span><span>h</span><span>e</span><span>z</span>
+                </a>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROJECTS</a></li>
+                    <li><a href="#voluntariados" onclick="seleccionar()">VOLUNTEERING</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <!-- Responsive menu icon -->
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- HOME SECTION -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="resources/2-images/foto_perfil.jpg" alt="Profile picture of Adrián Sánchez Carrión">
+            </div>
+            <h1>Adrián Sánchez</h1>
+            <h2 style="margin-top: 15px">Data Scientist & Bioinformatician</h2>
+            <div class="redes">
+                <a href="https://github.com/adrichez"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/adriichez"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/adrichez/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:asanca33@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- ABOUT ME SECTION -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p>
+                I'm Adrián, 24 years old, from Beas de Segura, Jaén 🌳. I've always been passionate about discovering how things work, learning, and living new experiences. I’ve combined studies and work in hospitality, agriculture, and education 🍽️, and I’ve participated in cultural exchanges in England 🇬🇧 and Italy 🇮🇹, as well as volunteering and international projects that helped me grow both personally and professionally 🇪🇺. I also enjoy playing sports such as basketball 🏀 and I’m always looking to stay active and explore new hobbies.
+            </p>
+            <p>
+                I hold a degree in Statistics 🎓 and a Master’s degree in Data Science and Computer Engineering 👨🏻‍💻🧬 from the University of Granada, where I successfully defended my Master’s thesis focused on GenoScribe, an intelligent system for the automated and interactive generation of bioinformatics reports. Currently, I work as a bioinformatics developer at CSIC-IPBLN under a JAE Intro ICU grant, continuing to expand this project and collaborating on other bioinformatics initiatives. I’m passionate about bioinformatics, data analysis, artificial intelligence applied to biomedicine, photography 📸, learning languages, and exploring cultures 🌏. I consider myself curious, organized, adaptable, and observant, always eager to learn and to create meaningful and impactful projects.
+            </p>
+
+
+            <div class="fila">
+                <!-- Personal Information -->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li><strong>Birth ➤</strong>31/10/2001</li>
+                        <li><strong>Age ➤</strong>24 years</li>
+                        <li><strong>Nationality ➤</strong>Spanish</li>
+                        <li><strong>Phone ➤</strong><a href="tel:+34 673 49 99 51">+34 673 49 99 51</a></li>
+                        <li><strong>Email ➤</strong><a href="mailto:asanca33@gmail.com">asanca33@gmail.com</a></li>
+                        <li><strong>GitHub ➤</strong><a href="https://github.com/adrichez">https://github.com/adrichez</a></li>
+                        <li><strong>Address ➤</strong>Gonzalo Gallas, 11, Granada, Spain</li>
+                        <li><strong>Position ➤</strong><span>Bioinformatician</span></li>
+                    </ul>
+                </div>
+
+                <!-- Interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes"><i class="fa-solid fa-camera"></i><span>PHOTOGRAPHY</span></div>
+                        <div class="interes"><i class="fa-solid fa-leaf"></i><span>NATURE</span></div>
+                        <div class="interes"><i class="fa-solid fa-plane"></i><span>TRAVELING</span></div>
+                        <div class="interes"><i class="fa-solid fa-earth-europe"></i><span>CULTURES</span></div>
+                        <div class="interes"><i class="fa-solid fa-film"></i><span>CINEMA</span></div>
+                        <div class="interes"><i class="fa-solid fa-book"></i><span>READING</span></div>
+                        <div class="interes"><i class="fa-solid fa-music"></i><span>MUSIC</span></div>
+                        <div class="interes"><i class="fa-solid fa-code"></i><span>TECHNOLOGY</span></div>
+                        <div class="interes"><i class="fa-solid fa-bicycle"></i><span>CYCLING</span></div>
+                        <div class="interes"><i class="fa-solid fa-basketball"></i><span>BASKETBALL</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CV Button -->
+            <div class="cv-container">
+                <a class="cv" href="resources/3-documents/Curriculum Vitae de Adrian Sanchez Carrion.pdf" download="AdrianSC_CV_ES.pdf">
+                    <button>Download CV Spanish <i class="fa-solid fa-download"></i></button>
+                </a>
+                <a class="cv" href="resources/3-documents/Adrian Sanchez Carrion's Curriculum Vitae.pdf" download="AdrianSC_CV_EN.pdf">
+                    <button>Download CV English <i class="fa-solid fa-download"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Skills técnicas -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill"><span>R</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Python</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                    <div class="skill"><span>Statistics</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                    <div class="skill"><span>Mathematics</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Machine Learning</span><div class="barra-skill"><div class="progreso"><span>70%</span></div></div></div>
+                    <div class="skill"><span>Bioinformatics</span><div class="barra-skill"><div class="progreso"><span>65%</span></div></div></div>
+                    <div class="skill"><span>HTML / CSS</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                </div>
+                <!-- Soft skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill"><span>Communication</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Teamwork</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                    <div class="skill"><span>Adaptability</span><div class="barra-skill"><div class="progreso"><span>90%</span></div></div></div>
+                    <div class="skill"><span>Problem Solving</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Organization</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                    <div class="skill"><span>Creativity</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                    <div class="skill"><span>Empathy</span><div class="barra-skill"><div class="progreso"><span>95%</span></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- CURRICULUM SECTION -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <!-- EXPERIENCE -->
+                <div class="col izquierda">
+                    <h3>Experience</h3>
+
+                    <!-- IPBLN-CSIC -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Bioinformatician</h4>
+                        <p><i class="fas fa-building"></i>IPBLN-CSIC</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Granada, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>April 2025 - Present</p>
+                        <p>Design and development of a modular and intelligent system for automated generation of bioinformatics reports in the cloud, integrating omics workflows and interactive visualization of results.</p>
+                        <ul>
+                            <li>BulkRNA-seq, scRNA-seq and metagenomics workflows.</li>
+                            <li>Automation with Quarto, R Markdown, and Jupyter.</li>
+                            <li>Integration in Docker and Apptainer containers.</li>
+                            <li>Application of NLP for automatic generation of scientific summaries.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Hotel Avenida (Events) -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Event Server</h4>
+                        <p><i class="fas fa-building"></i>Hotel Avenida</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>May 2018 - Present</p>
+                        <p>Specialized in the organization and service of large events, ensuring customer satisfaction and efficient team coordination.</p>
+                        <ul>
+                            <li>Management of banquets, weddings, communions, and dinners.</li>
+                            <li>Customer service at the bar and dining areas.</li>
+                            <li>Teamwork to guarantee excellence in service.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Pizzería Paradís -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Restaurant Server</h4>
+                        <p><i class="fas fa-building"></i>Pizzería Paradís</p>
+                        <p><i class="fas fa-map-marker-alt"></i>L'Estartit, Girona, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>August 2024 - September 2024</p>
+                        <p>Worked across three establishments of the same group, combining bar, terrace, and restaurant service for a diverse and international clientele.</p>
+                        <ul>
+                            <li>Preparation of cocktails and table service.</li>
+                            <li>Daily coordination across different venues.</li>
+                            <li>Customer service for international clients with high standards.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Olive Harvest -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Seasonal Olive Harvester</h4>
+                        <p><i class="fas fa-building"></i>Self Employed</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>December 2017 - January 2024</p>
+                        <p>Participation in the annual olive harvest, gaining experience in physical work, coordination, and general agricultural tasks.</p>
+                        <ul>
+                            <li>Manual and mechanized olive harvesting.</li>
+                            <li>Maintenance of olive groves and agricultural support tasks.</li>
+                            <li>Teamwork in a collaborative, family environment.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Private Tutor -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Private Tutor (Maths & STEM)</h4>
+                        <p><i class="fas fa-building"></i>Freelance</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>June 2019 - August 2023</p>
+                        <p>Math, physics, economics, and computer science classes tailored to each student’s needs, fostering critical thinking and active participation.</p>
+                        <ul>
+                            <li>Design of personalized learning materials.</li>
+                            <li>Promotion of critical thinking and active learning.</li>
+                            <li>Collaboration in educational PROA programs.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Ginger Vintage -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Retail Sales Assistant</h4>
+                        <p><i class="fas fa-building"></i>Ginger Vintage</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Granada, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>February 2023 - May 2023</p>
+                        <p>Personalized customer service and store management, developing communication, visual marketing, and organizational skills in a dynamic environment.</p>
+                        <ul>
+                            <li>Fashion advice and customer service.</li>
+                            <li>Cash register and inventory management.</li>
+                            <li>Store organization and maintenance.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- La Tentación -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Bar Server</h4>
+                        <p><i class="fas fa-building"></i>Cafetería La Tentación</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>June 2022 - September 2022</p>
+                        <p>Support in breakfast and terrace service during high-demand periods, developing speed, organization, and customer service skills.</p>
+                        <ul>
+                            <li>Preparation of coffees and beverages.</li>
+                            <li>Table organization and service logistics.</li>
+                            <li>Efficient management during peak hours.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+
+                    <!-- Hotel Avenida (Bar) -->
+                    <div class="item izq">
+                        <h4><i class="fas fa-briefcase"></i>Bar Server</h4>
+                        <p><i class="fas fa-building"></i>Hotel Avenida, Beas de Segura</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Jaén, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>June 2019 - September 2019</p>
+                        <p>Service in bar, restaurant, terrace, and pool areas, developing customer service and event management skills in high-capacity environments.</p>
+                        <ul>
+                            <li>Food and beverage service in multiple areas.</li>
+                            <li>Event organization and service logistics.</li>
+                            <li>Team management in high-demand situations.</li>
+                        </ul>
+                        <div class="conectori"><div class="circuloi"></div></div>
+                    </div>
+                </div>
+
+
+                <!-- EDUCATION -->
+                <div class="col derecha">
+                    <h3>Education</h3>
+
+                    <!-- Master’s Degree -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Master’s in Data Science and Computer Engineering</h4>
+                        <p><i class="fas fa-building"></i>University of Granada · ETSIIT</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Granada, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>Sep 2024 - Dec 2025</p>
+                        <p>Advanced training in data science, artificial intelligence, and computing applied to biomedicine. Practical focus on predictive modeling, omics analysis, and reproducible reporting. <span>GPA: 8.93/10.</span></p>
+                        <ul>
+                            <li>Machine Learning · Deep Learning · Neural Networks</li>
+                            <li>Bioinformatics · Transcriptomics and Genomics</li>
+                            <li>Big Data · Data Mining · Advanced Statistics</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+
+                    <!-- Advanced Machine Learning Diploma -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Advanced Machine Learning in Python Diploma</h4>
+                        <p><i class="fas fa-building"></i>University of Málaga · School of Computer Engineering</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Málaga, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>Nov 2024 - Jun 2025</p>
+                        <p>Specialized program in machine learning and deep learning with Python, focused on creating, optimizing, and deploying advanced predictive models. <span>GPA: 9.7/10.</span></p>
+                        <ul>
+                            <li>Deep Neural Networks · NLP · Computer Vision</li>
+                            <li>Model Optimization and Regularization</li>
+                            <li>Recommender Systems and Real-World Applications</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+
+                    <!-- Professional Skills Acceleration -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Professional Skills Acceleration Program</h4>
+                        <p><i class="fas fa-building"></i>University of Granada · Talent Incubator</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Granada, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>Nov 2022 - May 2023</p>
+                        <p>Selected among the top 20 students at UGR for developing key professional skills. Intensive training in leadership, communication, teamwork, and creativity applied to the workplace.</p>
+                        <ul>
+                            <li>Soft skills: leadership, communication, team management</li>
+                            <li>Applied creativity and innovation</li>
+                            <li>Problem-solving in complex environments</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+
+                    <!-- Statistics Degree (Erasmus) -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Bachelor’s in Statistics (Erasmus+ Program)</h4>
+                        <p><i class="fas fa-building"></i>University of Padua · Department of Statistical Sciences</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Padua, Italy</p>
+                        <p><i class="fas fa-calendar-alt"></i>Sep 2021 - Jul 2022</p>
+                        <p>International exchange focusing on artificial intelligence, quantitative marketing, and advanced statistical methods in a multicultural environment. <span>GPA: 9.2/10.</span></p>
+                        <ul>
+                            <li>Courses in AI, marketing, demography, and statistics</li>
+                            <li>Adaptation to an international academic setting</li>
+                            <li>Development of linguistic and cultural skills</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+
+                    <!-- Statistics Degree -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Bachelor’s in Statistics</h4>
+                        <p><i class="fas fa-building"></i>University of Granada · Faculty of Sciences</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Granada, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>Sep 2019 - Jul 2023</p>
+                        <p>Solid training in statistical modeling, programming, and multivariate analysis, with applications in biostatistics, demography, and data mining. <span>GPA: 8.3/10.</span></p>
+                        <ul>
+                            <li>Algebra, mathematical analysis, time series</li>
+                            <li>Statistical inference and multivariate analysis</li>
+                            <li>Biostatistics · Data Mining · Demography</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+
+                    <!-- Cultural Exchange -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Cultural Exchange & Immersion Program</h4>
+                        <p><i class="fas fa-building"></i>Brighton College</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Brighton, United Kingdom</p>
+                        <p><i class="fas fa-calendar-alt"></i>Apr 2018 - May 2018</p>
+                        <p>Participation in an international exchange program aimed at improving English and exploring new cultures. Host family stay, intensive classes, and integration activities.</p>
+                        <ul>
+                            <li>Improved English language proficiency</li>
+                            <li>Adaptation to multicultural environments</li>
+                            <li>Development of social and communication skills</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+
+                    <!-- Bachillerato -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Spanish High School Diploma in Science and Technology</h4>
+                        <p><i class="fas fa-building"></i>I.E.S. Sierra de Segura</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>Sep 2017 - Jun 2019</p>
+                        <p>Focused education in mathematics, physics, and technology, developing analytical thinking and logical reasoning. <span>GPA: 9.4/10.</span></p>
+                        <ul>
+                            <li>Advanced mathematics and applied physics</li>
+                            <li>Participation in science-related projects and activities</li>
+                            <li>Academic recognition for outstanding performance</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+
+                    <!-- ESO -->
+                    <div class="item der">
+                        <h4><i class="fas fa-graduation-cap"></i>Spanish Secondary Education (ESO)</h4>
+                        <p><i class="fas fa-building"></i>I.E.S. Sierra de Segura</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Beas de Segura, Spain</p>
+                        <p><i class="fas fa-calendar-alt"></i>Sep 2013 - Jun 2017</p>
+                        <p>General education in science, mathematics, and humanities, fostering social skills, responsibility, and teamwork. <span>GPA: 8.9/10.</span></p>
+                        <ul>
+                            <li>Excellence in science and mathematics</li>
+                            <li>Participation in multidisciplinary school projects</li>
+                            <li>Development of social and organizational skills</li>
+                        </ul>
+                        <div class="conectord"><div class="circulod"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Projects</h2>
+            <div class="galeria">
+                <!-- Project 1: Portfolio -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/english-portfolio">
+                        <img src="resources/4-projects/portfolio.gif" alt="">
+                        <div class="overlay">
+                            <h3>Portfolio</h3>
+                            <p>My personal portfolio showcasing projects and skills.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 2: GenoScribe -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/GenoScribe">
+                        <img src="resources/4-projects/tfm_genocribe.gif" alt="">
+                        <div class="overlay">
+                            <h3>GenoScribe</h3>
+                            <p>Automated and reproducible generation of bioinformatics reports.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 3: Harry Potter Social Network -->
+                <div class="proyecto">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/overlay/1744737532382/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0">
+                        <img src="resources/4-projects/harry_potter_social_network.gif" alt="">
+                        <div class="overlay">
+                            <h3>Harry Potter Social Network</h3>
+                            <p>Construction of Harry Potter’s character social network using web scraping and data analysis techniques.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 4: Six Sigma Methodology -->
+                <div class="proyecto">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/overlay/1739365695028/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0">
+                        <img src="resources/4-projects/tfg_six_sigma_metodology.gif" alt="">
+                        <div class="overlay">
+                            <h3>Six Sigma Methodology</h3>
+                            <p>Implementation of the Six Sigma methodology to improve product quality in a real company.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/photo-organizer">
+                        <img src="resources/4-projects/photo_organizer.gif" alt="">
+                        <div class="overlay">
+                            <h3>Photo Organizer</h3>
+                            <p>Automatically organize your photos into year/month folders based on EXIF metadata or file modification date.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="proyecto">
+                    <a href="https://github.com/adrichez/qr-generator">
+                        <img src="resources/4-projects/qr_generator.gif" alt="">
+                        <div class="overlay">
+                            <h3>QR Generator</h3>
+                            <p>Generate simple or personalized QR codes easily for URLs, text, or other data.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- VOLUNTEERING SECTION -->
+    <section id="voluntariados" class="voluntariados">
+        <div class="contenido-seccion">
+            <h2>Volunteering</h2>
+            <div class="galeria">
+                <!-- Volunteering 1 -->
+                <div class="voluntariado">
+                    <a href="https://drive.google.com/file/d/1ZDVK9DdR-r4w276E4ij9GDI720axWHyl/view">
+                        <img src="resources/5-volunteerings/Associazione_Kora.gif" alt="">
+                        <div class="overlay">
+                            <h3>ESC - Associazione Kora</h3>
+                            <h4>Passignano, Perugia, Italy</h4>
+                            <p>During the summer of 2024, I participated in an international volunteering project in Italy with Associazione Kora and the European Solidarity Corps. I collaborated in organizing cultural events, workshops, and environmental activities, promoting sustainability and intercultural exchange. In addition, I documented the initiatives through photography, video, and social media.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Volunteering 2 -->
+                <div class="voluntariado">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/details/volunteering-experiences/1745532932331/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0">
+                        <img src="resources/5-volunteerings/Fundacion_Escuela_Solidaridad.gif" alt="">
+                        <div class="overlay">
+                            <h3>Escuela de Solidaridad</h3>
+                            <h4>Sierra Elvira, Granada, Spain</h4>
+                            <p>For eight months, I collaborated with the Escuela de Solidaridad Foundation in Granada, supporting social inclusion and improving the quality of life of people in vulnerable situations. I designed creative fundraising campaigns, developed promotional materials, and organized solidarity events. Moreover, I took part in educational activities and provided direct support to the residents.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Volunteering 3 -->
+                <div class="voluntariado">
+                    <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/details/volunteering-experiences/1745533112437/single-media-viewer/?profileId=ACoAAD-dcxQBkp5ptdR_RY-YmWgeQndx25R3Mb0">
+                        <img src="resources/5-volunteerings/ESN_Padova.gif" alt="">
+                        <div class="overlay">
+                            <h3>ESN Padova</h3>
+                            <h4>Padua, Italy</h4>
+                            <p>For nine months, I was part of ESN Padova, supporting the integration of international students in Italy through cultural events, workshops, and guided visits. I coordinated socio-cultural activities, provided practical guidance, and managed event logistics. This experience strengthened my skills in intercultural communication, teamwork, and organization.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contact</h2>
+            <div class="fila">
+
+                <!-- Contact Form -->
+                <div class="col">
+                    <form action="https://formspree.io/f/mldpbkoo" method="POST">
+                        <input name="name" type="text" placeholder="Your Name" autocomplete="name">
+                        <input name="email" type="email" placeholder="Email" autocomplete="email">
+                        <input name="topic" type="text" placeholder="Subject" autocomplete="off">
+                        <textarea name="message" cols="30" rows="22" placeholder="Message" autocomplete="off"></textarea>
+                        <button>Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col">
+                    <img src="resources/2-images/granada_mapa.png" alt="" style="height: 476px; border-radius: 10px;">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>Gonzalo Gallas, 11, (Granada, Spain)</li>
+                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:asanca33@gmail.com">asanca33@gmail.com</a></li>
+                            <li><i class="fa-solid fa-mobile-screen"></i><a href="tel:+34 673 49 99 51">+34 673 49 99 51</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+            <a href="https://github.com/adrichez"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/adrian-sanchez-carrion/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:asanca33@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="resources/1-scripts/script.js"></script>
+</body>
+</html>
