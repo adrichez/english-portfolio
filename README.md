@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="resources/2-images/cover.png" alt="Photo Organizer Banner" style="width:100%">
+  <img src="resources/02-images/cover.png" alt="Portfolio Banner" style="width:100%">
 </p>
 
 <div align="center">
@@ -39,7 +39,7 @@
 ## 📄 Description
 
 <p align="center">
-  <img src="resources/2-images/preview_portfolio.png" alt="Show my portfolio" width="85%">
+  <img src="resources/02-images/preview_portfolio.png" alt="Show my portfolio" width="85%">
 </p>
 
 Welcome to my **personal portfolio**! 👋  
@@ -64,11 +64,11 @@ spanish-portfolio
 ├── index.html
 ├── README.md
 └── resources
-    ├── 1-scripts  # Folder with website scripts
-    ├── 2-images  # Folder with images and visual resources
-    ├── 3-documents  # Folder with PDF documents
-    ├── 4-projects  # Folder with GIFs and screenshots of projects
-    └── 5-volunteerings  # Folder with GIFs and screenshots of volunteer work
+    ├── 01-scripts  # Folder with website scripts
+    ├── 02-images  # Folder with images and visual resources
+    ├── 03-documents  # Folder with PDF documents
+    ├── 04-projects  # Folder with GIFs and screenshots of projects
+    └── 05-volunteerings  # Folder with GIFs and screenshots of volunteer work
 ```
 
 Where:
